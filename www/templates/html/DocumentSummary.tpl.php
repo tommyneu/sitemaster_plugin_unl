@@ -24,7 +24,7 @@
                     To ensure compliance with Title II accessibility standards, please log in to
                     <a href="https://wae.unl.edu/">wae.unl.edu</a> and run a site crawl for to
                     find all publicly accessible PDFs and documents. Once identified, these files
-                    must be remediated, removed. In the case of simple text documents they could be
+                    must be remediated or removed. In the case of simple text documents they could be
                     converted into web pages or web forms.
                 </span>
             </div>

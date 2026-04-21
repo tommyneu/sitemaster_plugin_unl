@@ -2,7 +2,7 @@
     <header class="dcf-mb-4">
         <h2>Document List</h2>
         <div class="subhead">
-            To ensure compliance with Title II accessibility standards, please remediated or removed all files.
+            To ensure compliance with Title II accessibility standards, please remediate or remove all files.
             In the case of simple text documents they could be converted into web pages or web forms.
         </div>
     </header>
