@@ -170,10 +170,12 @@ async function fetch_data() {
             wae_pdf_violations.parentElement.classList.remove('invalid');
         }
     } catch (err) {
-        // If we are here then something bad happened
-        wae_summary_loading.classList.add('dcf-d-none');
-        wae_summary_error.classList.remove('dcf-d-none');
-        console.error(err);
+        if (err.message !== 'No Site Data') {
+            // If we are here then something bad happened
+            wae_summary_loading.classList.add('dcf-d-none');
+            wae_summary_error.classList.remove('dcf-d-none');
+            console.error(err);
+        }
     }
 }
 window.wae_fetch_data = fetch_data;
